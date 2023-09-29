@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ugx "$SUBDIR"
+find . -type d -exec chmod a+x {}\ 
